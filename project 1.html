@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gym.com</title>
+</head>
+<style>
+    body{
+        font-family: fantasy;
+        background-image: url(img/bg.jpg.webp);
+        margin: 0px;
+        padding: 0px;
+    background-repeat: no-repeat;
+      background-color: black;
+        
+    }
+.left{
+   
+    display: inline block;
+    position: absolute;
+    left: 40px;
+    top: 20px;
+   color: lightsalmon;
+   font-size: 45px;
+ 
+}
+.left div{
+    line-height: 19px;
+    font-size: 26px;
+    text-align: center;
+}
+.mid{
+    display: block;
+    width: 36%;
+    margin: 29px auto;
+}
+  .right{
+      position: absolute;
+      display: inline-block;
+      right: 34px;
+      top: 43px;
+  }
+  .navbar{
+      display: inline-block;
+  }
+  .navbar li{
+      display: inline-block;
+  font-size: 25px;
+
+  }
+ .navbar li a{
+     color: rgb(4, 38, 42);
+     text-decoration: none;
+     padding: 34px 13px;
+ }
+ .navbar li a:hover,
+ .navbar li a.active{
+text-decoration: underline;
+color: rgba(12, 211, 95, 0.945);
+ }
+ .btn{
+     font-family: Arial, Helvetica, sans-serif;
+     margin: 0px 9px;
+     background-color: rgb(203, 203, 228);
+     color: lightcoral;
+     padding: 4px 14px;
+     border: 2px;
+     border-radius: 34px;
+     font-size: 20px;
+     cursor: pointer;
+ }
+.btn:hover{
+    background-color: rgb(202, 236, 6);
+}
+    .container{
+        border: rgb(15, 19, 209);
+        margin: auto;
+        padding: 34px;
+        /* width: 15px; */
+        border-radius: 36px;
+        top: 35px;
+    }
+     .formgroup input{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: center;
+        display: block;
+         /* width: 344px; */
+        padding: 10px;
+        /* border: 12px; */
+        margin: auto;
+        /* font-size: 20px; */
+        border-radius: 36px; 
+    }
+    .container h1{
+        text-align: center;
+        color: rgb(191, 0, 224);
+    } 
+    .container button{
+        display: block;
+        width: 40%;
+        margin: 20px auto;
+    }
+    .left:hover{
+        color: black;
+    }
+    .left img{
+        /* width: 200px; */
+        /* filter: invert(100%); */
+        width: 400px;
+    filter: invert(428%);
+    position: absolute;
+    left: 7px;
+    top: 77px;
+    }
+</style>
+<body>
+    <header class="header">
+<div class="left">
+    Stay in Fit Gym 
+    <img src="img/logo.jpg.webp" alt="">
+</div>
+<div class="mid">
+    <ul class="navbar"> 
+<li><a href="#" class="active"> Home </a></li>
+<li><a href="#"> About us</a></li>
+<li><a href="#"> Fitness calculator</a></li>
+<li><a href="#"> Contact us</a></li>
+    </ul>
+</div>
+
+<div class="right">
+    <button class="btn">Contact us now</button>
+    <button class="btn"> Email us</button>
+</div>
+    </header>
+    <div class="container">
+<h1>Join best gym of Banglore</h1>
+<form action="no action.php">
+    <div class="formgroup">
+        <input type="text" name="" placeholder="Enter your name">
+    </div>
+    <div class="formgroup">
+        <input type="text" name="" placeholder="Enter your age">
+    </div>
+    <div class="formgroup">
+        <input type="text" name="" placeholder="Enter your gender">
+    </div>
+    <div class="formgroup">
+        <input type="text" name="" placeholder="Enter your locality">
+    </div>
+    <div class="formgroup">
+        <input type="text" name="" placeholder="Enter your Email">
+    </div>
+    <div class="formgroup">
+        <input type="text" name="" placeholder="Enter your phone number">
+    </div>
+    <button class="btn"> Submit</button>
+</form>
+    </div>
+    
+</body>
+</html>
